@@ -1,0 +1,31 @@
+body{
+	background-image: url(../image/fondo.jpg);
+	background-size: contain;
+	width: 1200px;
+	height: 1200px;
+	background-repeat: no-repeat;
+}
+
+#fondo{
+	background-image: url(../image/mario.jpg);
+	height: 600px;
+	width: 85px;
+	background-repeat: no-repeat;
+	margin-top: 26%;
+	animation: fondo-cambio infinite 800ms steps(1);	
+}
+@keyframes fondo-cambio{
+	1%{ background-position: 0px 0 }
+	8%{background-position: -75px 0px;}
+	16%{ background-position: -160px 0 }
+	24%{ background-position: -245px 0 }
+	32%{ background-position: - 342px 0 }
+	40%{ background-position: - 440px 0 }
+	48%{ background-position: -550px 0 }
+	56%{ background-position: - 645px 0 }
+	64%{ background-position: -717px 0 }
+	72%{ background-position: - 780px 0 }
+	80%{ background-position: - 847px 0 }
+	88%{ background-position: -915px 0 }
+}
+
